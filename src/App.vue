@@ -1,5 +1,19 @@
-<script setup></script>
+<script setup>
+import Card from './components/Card.vue'
+import Header from './components/Header.vue'
+</script>
 
 <template>
-  <h1>Vlad</h1>
+  <div class="bg-white w-4/5 m-auto rounded-xl shadow-xl mt-14">
+    <Header />
+    <h2 class="text-3xl font-bold">All sneakers</h2>
+    <div>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </div>
+  </div>
 </template>
