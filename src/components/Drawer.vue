@@ -20,7 +20,9 @@ import CartItemList from './CartItemList.vue'
           <b>15 $</b>
         </div>
       </div>
-      <button class="transition bg-lime-500 w-full rounded-xl py-3">Save</button>
+      <button class="bg-lime-400 w-full rounded-xl py-3 transition duration-1000 hover:bg-blue-500">
+        Save
+      </button>
     </div>
   </div>
 </template>
